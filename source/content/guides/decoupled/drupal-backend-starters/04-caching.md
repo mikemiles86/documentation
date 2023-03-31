@@ -17,9 +17,8 @@ product: [decoupled]
 integration: [--]
 ---
 
-Cache settings are configured out-of-the-box for you, but there are circumstances in which you might need to make your own configurations, for example, your CMS is not on Pantheon but your frontend is on Pantheon.
 
-The recommended caching configurations are automatically enabled if you created your Drupal site using the [backend starter project](/guides/decoupled/drupal-backend-starters/create), including:
+The recommended caching settings are automatically configured and enabled if you created your Drupal site using the [backend starter project](/guides/decoupled/drupal-backend-starters/create), including:
 
 - JSON:API is configured to cache responses for 10 minutes.
 - The Pantheon Advanced Page Cache module is enabled. This enables edge caching and purging across the entire decoupled stack.
