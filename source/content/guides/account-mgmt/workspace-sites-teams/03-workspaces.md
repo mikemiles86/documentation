@@ -17,38 +17,7 @@ product: [--]
 integration: [--]
 ---
 
-Workspaces are a home base for your WebOps. There are two types of workspaces:
-
-<TabList>
-
-<Tab title="Personal Workspace" id="personal-workspace" active={true}>
-
-The Personal Workspace displays tools for the sites you own, or are a team member of, your account plan, and billing for sites you own.  You have only one Personal Workspace. Learn more about workspaces in the [Accounts](/guides/account-mgmt/account) guide.
-
-- Every Pantheon user is assigned one Personal Workspace. 
-- All the sites you have created, as well as individual sites from other organizations you've been invited to collaborate on, will be in your Personal Workspace. 
-- You can use a Personal Workspace for your own projects, and for visibility into sites from other organizations you are working with.
-- WebOps collaboration features such as [Multidev](/guides/multidev) and [Custom Upstreams](/guides/custom-upstream) are not available in Personal Workspaces. To access these features, you need a [Professional Workspace](/guides/account-mgmt/workspace-sites-teams/workspaces#create-a-professional-workspace). 
-
-</Tab>
-
-<Tab title="Professional Workspace" id="professional-workspace">
-
-Professional workspaces bring together users and sites to allow administrators to effectively manage a large number of sites. Keep in mind, you can be a member of multiple professional workspaces at the same time.
-
-You can create a Professional Workspace as the home for an organization’s sites and the teams working on them. 
-
-- Creating a Professional Workspace is free. 
-- Access to the collaboration features below are available to sites owned by Gold Workspaces or above:
-	- [Multidev](/guides/multidev)
-	- [Custom Upstreams](/guides/custom-upstream)
-	- [Autopilot](/guides/autopilot)
-- You can create any number of Professional Workspaces. 
-- You may be a member of more than one Professional Workspace, and can switch between your Personal and Professional Workspace at any time.
-
-</Tab>
-
-</TabList>
+Workspaces are a home base for your WebOps. 
 
 ## Workspace Tools
 
@@ -84,7 +53,7 @@ If you have contracted with a [Pantheon Partner Agency](https://pantheon.io/plan
 
 ## Create a Professional Workspace
 
-You can create as many workspaces as necessary. The following process will create a Professional Workspace with a free Silver Account Plan.
+You can create as many workspaces as necessary. The following process will create a Professional Workspace with a free Silver Account Plan.  To upgrade a Workspace to Gold, see [Workspace Plans](/guides/account-mgmt/plans/workspace-plans).
 
 1. Click the [Workspace Switcher](/guides/account-mgmt/workspace-sites-teams/workspaces#switch-between-workspaces) in the upper left corner, then select **Create New Workspace**.
 
@@ -163,7 +132,7 @@ Only workspace team members and administrators of a Supporting Workspace with Mu
 
 ### Why can't my Agency workspace own a site?
 
-Enterprise, Reseller, OEM, and EDU+ workspaces own sites. Registered Agencies, Pantheon Partners, Premier Pantheon Partners, Strategic Pantheon Partners, and EDU workspaces support sites. This is because an agency's role is to develop, service, and maintain a site on behalf of its owner. Read more about owning and supporting sites in [Workspaces, Sites, and Teams](/guides/account-mgmt/workspace-sites-teams).
+Enterprise, Reseller, OEM, and EDU+ workspaces own sites. Registered Agencies, Pantheon Partners, Premier Pantheon Partners, Strategic Pantheon Partners, and EDU workspaces support sites. This is because an agency's role is to develop, service, and maintain a site on behalf of its owner. 
 
 ### Can I add my own Agency as a Supporting Workspace to a client's site?
 
