@@ -104,7 +104,7 @@ The following features are currently not supported with Pantheon Front-End Sites
 * Network security/intrusion prevention
 * Self-service domain management
 * Active purging
-* Supporting organizations
+* Supporting Workspaces
 * Multizone failover
 * Multiregion failover
 * Log forwarding
